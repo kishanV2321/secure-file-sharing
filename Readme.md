@@ -41,7 +41,7 @@ This project implements a secure file-sharing system using Node.js with Express 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/secure-file-sharing.git
+   git clone https://github.com/kishanV2321/secure-file-sharing.git
    ```
 
 2. Navigate into the project directory:
