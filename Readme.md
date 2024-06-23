@@ -59,18 +59,17 @@ This project implements a secure file-sharing system using Node.js with Express 
 4. Set up environment variables:
    - Create a `.env` file in the root directory.
    - Define the following environment variables:
-     ```
+     ```bash
      PORT=3000
      MONGODB_URI=mongodb_url
      JWT_SECRET=your_jwt_secret_here
      JWT_SECRET_EXPIRY=1d
      CORS_ORIGIN=*
-    DOMAIN=http://localhost:3000
-    ACCESS_TOKEN_SECRET=
-    ACCESS_TOKEN_EXPIRY=1d
-    REFRESH_TOKEN_SECRET=
-    REFRESH_TOKEN_EXPIRY=10d
-
+     DOMAIN=http://localhost:3000
+     ACCESS_TOKEN_SECRET=
+     ACCESS_TOKEN_EXPIRY=1d
+     REFRESH_TOKEN_SECRET=
+     REFRESH_TOKEN_EXPIRY=10d
      ```
 
 5. Start the server:
